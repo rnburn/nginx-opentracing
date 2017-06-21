@@ -1,0 +1,16 @@
+html
+  head
+    title='Virtual Zoo'
+  body
+    table
+      each row in animals
+        tr
+          each animal in row
+            td(align='center', valign='center') 
+              a(href=animal.profile)
+                img(src=animal.thumbnail_pic)
+              br
+              | #{animal.name}
+    a(href="/admit.html")
+      | New Admittance
+    
