@@ -3,6 +3,10 @@ nginx-opentracing
 
 Enable requests served by nginx for distributed tracing via [The OpenTracing Project](opentracing.io).
 
+# The repo has moved.
+
+https://github.com/opentracing-contrib/nginx-opentracing
+
 Dependencies
 ------------
 - The [C++ OpenTracing Library](https://github.com/opentracing/opentracing-cpp)
@@ -13,7 +17,7 @@ Dependencies
 
 Docker
 ------------
-A [Dockerfile](docker/Dockerfile) is provided to support using nginx with OpenTracing
+A docker image `rnburn/nginx-opentracing` is provided to support using nginx with OpenTracing
 in a manner analogous to the [nginx Docker image](https://hub.docker.com/_/nginx/). 
 See [here](example/) for examples of how to use it.
 
