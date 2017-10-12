@@ -1,11 +1,12 @@
+The repo has moved.
+-------------------
+
+https://github.com/opentracing-contrib/nginx-opentracing
+
 nginx-opentracing
 -----------------
 
 Enable requests served by nginx for distributed tracing via [The OpenTracing Project](opentracing.io).
-
-# The repo has moved.
-
-https://github.com/opentracing-contrib/nginx-opentracing
 
 Dependencies
 ------------
