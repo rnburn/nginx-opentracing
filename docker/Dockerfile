@@ -68,7 +68,7 @@ RUN set -x \
  && make && make install \
  && cd "$tempDir" \
 ### Get nginx-opentracing source
-  && git clone -b dymod https://github.com/rnburn/nginx-opentracing.git \
+  && git clone https://github.com/opentracing-contrib/nginx-opentracing.git \
 ## Build nginx-opentracing modules
   && NGINX_VERSION=`nginx -v 2>&1` && NGINX_VERSION=${NGINX_VERSION#*nginx/} \
   && echo "deb-src http://nginx.org/packages/mainline/debian/ stretch nginx" >> /etc/apt/sources.list \
